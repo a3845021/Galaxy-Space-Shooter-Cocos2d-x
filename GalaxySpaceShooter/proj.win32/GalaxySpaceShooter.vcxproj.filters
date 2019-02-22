@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{df469de9-9499-45a1-ac4c-6eeaa41e54cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{8e34dcfa-b0c9-45c3-a8d1-da3d39ce1d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models">
+      <UniqueIdentifier>{9930fd14-9ca3-46b6-85a9-78e4fc97bfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{3f877b2f-2be4-41b8-9a70-56a9ae3f4092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models\ammunition">
+      <UniqueIdentifier>{a95e6ccd-092a-4231-b922-8b1d6a0b47ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models\aircraft">
+      <UniqueIdentifier>{9232d303-7a61-42ac-861b-13237b555185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models\enemy">
+      <UniqueIdentifier>{e3ca93e7-0c6f-488c-bc8f-75b9e5828354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models\background">
+      <UniqueIdentifier>{a7c750c0-5b86-4d25-a509-380bb6b726e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models\reward">
+      <UniqueIdentifier>{83e31ff1-9341-4825-bddf-b913d4c93ed9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\AppDelegate.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\Shooter.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\Model.cpp">
+      <Filter>src\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\aircraft\Aircraft.cpp">
+      <Filter>src\models\aircraft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\ammunition\Ammunition.cpp">
+      <Filter>src\models\ammunition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\ammunition\EnemyAmmunition.cpp">
+      <Filter>src\models\ammunition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\ammunition\AircraftAmmunition.cpp">
+      <Filter>src\models\ammunition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\background\Background.cpp">
+      <Filter>src\models\background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\enemy\EnemyManagement.cpp">
+      <Filter>src\models\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\enemy\Enemy.cpp">
+      <Filter>src\models\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\reward\Reward.cpp">
+      <Filter>src\models\reward</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\SplashScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\GameOverScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\GameScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\MenuScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\Utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\AppDelegate.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\CommonValues.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\Model.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\Shooter.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\IDamagable.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\aircraft\Aircraft.h">
+      <Filter>src\models\aircraft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\ammunition\Ammunition.h">
+      <Filter>src\models\ammunition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\ammunition\EnemyAmmunition.h">
+      <Filter>src\models\ammunition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\ammunition\AircraftAmmunition.h">
+      <Filter>src\models\ammunition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\background\Background.h">
+      <Filter>src\models\background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\enemy\Enemy.h">
+      <Filter>src\models\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\enemy\EnemyManagement.h">
+      <Filter>src\models\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\reward\Reward.h">
+      <Filter>src\models\reward</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\SplashScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\GameOverScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\GameScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\MenuScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
